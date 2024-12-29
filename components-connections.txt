@@ -1,0 +1,16 @@
+Components:
+	-Arduino UNO
+	-MCP2515-M CAN bus module - https://www.hestore.hu/prod_10040174.html?gross_price_view=1&source=gads&lang=hu&gad_source=1&gclid=CjwKCAiAg8S7BhATEiwAO2-R6l_H4XRL-Sx1nKae6eRNAveGYAe8G5nCYPooVzxeyibtPWCJF350eBoC7KMQAvD_BwE
+
+Wiring:
+	A) MCP2515-M --> Arduino UNO
+	-VCC --> 5V
+	-GND --> GND
+	-CS --> 10
+	-MISO --> 12
+	-MOSI --> 11
+	-SCK --> 13
+
+	B) MCP2515-M --> OBD-II Port
+	-CAN High --> 6
+	-CAN Low --> 14
